@@ -24,6 +24,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'DocekrHub-baohq33'
-        repository: 'ecommerce-frontend'
+        repository: 'baohq33/ecommerce-frontend'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
